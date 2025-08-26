@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Gabriel Coghi - Desenvolvedor de jogos Unity (2D, 3D e Multiplayer) especializado em C#, Photon e prototipagem.">
+  <title>Portfólio - Gabriel Coghi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Exo+2&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="particles-js"></div>
+  <header id="header" class="container-fluid p-4 text-center">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Gabriel Coghi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://wa.me/5517988232160?text=Olá%2C%20vi%20seu%20portfólio%20e%20quero%20conversar%20sobre%20um%20projeto!" target="_blank">
+  Contato
+</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1><br>Transformando ideias em <span class="highlight">jogos reais</span></h1>
+    <figure class="col text-center mt-4">
+      <img src="Img/FotoGabriel.png" alt="Foto de Gabriel Coghi Abreu" width="200" height="200" class="rounded-circle border-purple">
+      <figcaption>Desenvolvedor de Jogos Unity | C# | Multiplayer</figcaption>
+    </figure>
+  </header>
+  <section id="projetos" class="container-fluid p-5">
+    <h2>Conheça o<span class="highlight"> meu trabalho</span></h2>
+    <div class="imagens">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100" data-tilt>
+            <img src="img/CapaSunnyLand.jpg" class="card-img-top" alt="Sunny Land">
+            <div class="card-body">
+              <h5 class="card-title">Unity2D / C#</h5>
+              <h1 class="card-subtitle">Sunny Land</h1>
+              <p class="card-text">Plataforma com double jump, coyote time e física otimizada. Código modular, UI responsiva e animações fluidas. Demonstração de controle preciso e design limpo.</p>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="Video/Joguinho Forest Land 2025-08-07 16-24-13.mp4">Ver demo</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" data-tilt>
+            <img src="img/CapaChronoblade.jpeg" class="card-img-top" alt="Chronoblade">
+            <div class="card-body">
+              <h5 class="card-title">Unity3D / C#</h5>
+              <h1 class="card-subtitle">Chronoblade</h1>
+              <p class="card-text">Combate Souls-like com câmera dinâmica, ragdoll, efeitos visuais e física 3D avançada. Arquitetura sólida para jogos de ação imersivos.</p>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="Video/RPG - Prototipo - Windows, Mac, Linux - Unity 2022.3.43f1_ _DX11_ 2025-08-07 18-40-45.mp4">Ver demo</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100" data-tilt>
+            <img src="img/CapaTrucoOnline.png" class="card-img-top" alt="Truco Online">
+            <div class="card-body">
+              <h5 class="card-title">Unity / Photon</h5>
+              <h1 class="card-subtitle">Truco Online</h1>
+              <p class="card-text">Multiplayer em tempo real com sincronização perfeita, sistema de truco/6/9/12 e interface intuitiva. Código modular e gameplay fluido.</p>
+            </div>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#videoModal" data-video="Video/Unity_x2WYi5c9JY.mp4">Ver demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="container-fluid p-4">
+    <p>Desenvolvido por Gabriel Coghi Abreu | <a href="https://github.com/seuuser" target="_blank">GitHub</a> | <a href="https://itch.io/seuprofile" target="_blank">Itch.io</a></p>
+  </footer>
+  <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="videoModalLabel">Assistir Vídeo</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <video id="modalVideo" controls class="rounded" style="max-height: 80vh; width: auto; max-width: 100%;">
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+          <a href="https://wa.me/5517988232160?text=Olá%2C%20vi%20seu%20portfólio%20e%20quero%20conversar%20sobre%20um%20projeto!" target="_blank" class="btn btn-primary">
+  Contratar
+</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+   particlesJS("particles-js", {
+    particles: {
+      number: { 
+        value: 80, 
+        density: { enable: true, area: 800 } 
+      },
+      color: { 
+        value: "#a259ff" 
+      },
+      shape: { 
+        type: "circle" 
+      },
+      opacity: { 
+        value: 0.5, 
+        random: true 
+      },
+      size: { 
+        value: 3, 
+        random: true 
+      },
+      move: { 
+        enable: true, 
+        speed: 2, 
+        direction: "none", 
+        random: true, 
+        straight: false, 
+        out_mode: "out" 
+      }
+    },
+    interactivity: {
+      detect_on: "canvas",
+      events: {
+        onhover: { 
+          enable: true, 
+          mode: "repulse" 
+        },
+        onclick: { 
+          enable: true, 
+          mode: "push"  
+        },
+        resize: true
+      },
+      modes: {
+        repulse: { 
+          distance: 150, 
+          duration: 0.6 
+        },
+        push: { 
+          particles_nb: 4 
+        }
+      }
+    },
+    retina_detect: true
+  });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const cards = document.querySelectorAll('[data-tilt]');    
+      cards.forEach(card => {
+        card.style.transform = 'perspective(1000px) scale(1)';
+        card.style.transformStyle = 'preserve-3d';
+        card.style.transition = 'transform 1s ease-out';
+      });
+      function onMouseMove(e) {
+        const card = this;
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        const rotateY = (x - centerX) / 200;
+        const rotateX = -(y - centerY) / 200;
+        card.style.transition = 'transform 0.1s ease-out';
+        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale(1.05)`;
+      }
+      function onMouseLeave() {
+        const card = this;
+        card.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) scale(1)';
+        card.style.transition = 'transform 0.1s ease-out';
+      }
+      cards.forEach(card => {
+        card.addEventListener('mousemove', onMouseMove);
+        card.addEventListener('mouseleave', onMouseLeave);
+      });
+    });
+  </script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const videoModal = document.getElementById('videoModal');
+      const modalVideo = document.getElementById('modalVideo');
+      const videoSource = document.createElement('source');
+      modalVideo.appendChild(videoSource);
+
+      videoModal.addEventListener('show.bs.modal', function (event) {
+        const button = event.relatedTarget;
+        const videoPath = button.getAttribute('data-video');
+        videoSource.src = videoPath;
+        videoSource.type = videoPath.endsWith('.mp4') ? 'video/mp4' : 'video/webm';
+        modalVideo.load();
+        //modalVideo.play();
+      });
+      videoModal.addEventListener('hidden.bs.modal', function () {
+        modalVideo.pause();
+        modalVideo.currentTime = 0;
+        videoSource.src = '';
+        modalVideo.load();
+      });
+    });
+  </script>
+</body>
+</html>
